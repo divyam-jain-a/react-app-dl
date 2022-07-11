@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-app-dl/static/css/main.2812898d.css",
+    "main.js": "/react-app-dl/static/js/main.0d792448.js",
+    "static/media/Online-Users-circle.jpg": "/react-app-dl/static/media/Online-Users-circle.0b3a053fed00843572f9.jpg",
+    "index.html": "/react-app-dl/index.html",
+    "main.2812898d.css.map": "/react-app-dl/static/css/main.2812898d.css.map",
+    "main.0d792448.js.map": "/react-app-dl/static/js/main.0d792448.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2812898d.css",
+    "static/js/main.0d792448.js"
+  ]
+}
