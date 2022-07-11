@@ -1,0 +1,128 @@
+.settings-box{
+    margin: 1rem;
+    margin-left: 4rem;
+}
+
+.add-user-btn{
+    width: 6.5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    font-weight: lighter;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    margin-top: 2rem;
+    background-color: rgb(13, 13, 13);
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.add-user-btn:hover{
+    background-color:  rgb(13, 116, 154);
+    font-size: 0.87rem;
+}
+
+.success-msg{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 29rem;
+    margin-top: 2rem;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid rgba(16, 184, 184, 0.537);
+    width: 12rem;
+    height: 1.7rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.material-symbols-rounded{
+    font-size: 1.4rem;
+    margin-top: -0.15rem;
+    color: rgba(16, 184, 184, 0.737);
+    font-weight: 300;
+    
+}
+
+.success-msg>p{
+    margin-top: 0.78rem;
+    font-size: 0.83rem;
+    color: rgba(16, 184, 184, 0.725)
+}
+
+.material-symbols-outlined{
+    font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48;
+  color:  rgb(13, 116, 154);
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 100%;
+  width: 2.4rem;
+  display: flex;
+  justify-content: center;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.material-symbols-outlined:hover{
+    color: rgb(183, 1, 1);
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 8px;
+    width: 90%;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    border:2px solid rgb(11, 11, 11) ;
+}
+
+td,th{
+    color: white;   
+}
+
+th{
+    background-color: rgb(11, 11, 11);
+    height: 4rem;
+    letter-spacing: 1px;
+}
+
+td{
+    height: 4rem;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(11, 11, 11);
+    border-right: none;
+    border-left: none;
+}
+
+.sno-cell{
+    width: 6%;
+}
+
+.name-cell{
+    width: 39%;
+}
+
+.delete-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-user{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Ubuntu', sans-serif;
+    height: 4rem;
+    font-weight: lighter;
+}

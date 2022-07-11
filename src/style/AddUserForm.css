@@ -1,0 +1,82 @@
+.form-bg{
+    position: fixed;
+    margin-left: -4rem;
+    margin-top: -3.5rem;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.503);
+}
+
+.form{
+    width: 42%;
+    height: 52%;
+    background-color: rgb(17, 17, 17);
+    margin-left: 18rem;
+    margin-top: 6rem;
+    border: none;
+    display: flex;
+}
+
+.form-desc{
+    margin-left: 2rem;
+    margin-top: 0.9rem;
+    color: rgba(255, 255, 255, 0.836);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-desc>p{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: bolder; 
+    letter-spacing: 1px;  
+}
+
+.form-desc>input{
+    width: 18rem;
+    height: 1.8rem;
+    border-radius: 2px;
+    border: none;
+    margin-top: 0.4rem;
+    background-color: rgba(0, 0, 0, 0.807);
+    color: white;
+    padding-left: 0.4rem;
+}
+
+.form-desc>label{
+    font-size: 0.9rem;
+}
+
+.form-desc>select{
+    width: 7rem;
+    height: 2rem;
+    margin-top: 0.3rem;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-desc>button:nth-of-type(1){
+    margin-left: 6.5rem;
+}
+
+.form-desc>button{
+    width: 5.5rem;
+    height: 2.2rem;
+    border-radius: 2px;
+    border: none;
+    margin-top: 5.4rem;
+    margin-left: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    letter-spacing: 0.6px;
+    background-color: rgb(5, 5, 5);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.form-desc>button:hover{
+    background-color: rgb(13, 116, 154) ;
+    font-size: 0.85rem;
+}

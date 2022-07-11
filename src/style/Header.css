@@ -1,0 +1,33 @@
+.header-box{
+    width: 100%;
+    height: 6.5rem;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 1px 1px 2px 1px rgba(19, 19, 19, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header-box>p{
+    margin-left: 3.5rem;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    color: rgb(16, 184, 184);
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.268);
+    letter-spacing: 1px;
+}
+
+.header-box>div{
+    border: 0.01rem solid rgba(138, 138, 138, 0.24);
+    width: 6.4rem;
+    height: 2.3rem;
+    border-radius: 5px;
+    margin-right: 3.5rem;
+    color: rgb(201, 201, 201);
+    display: flex;
+    letter-spacing: 0.5px;
+    justify-content: center;
+    align-items: center;
+    
+}
